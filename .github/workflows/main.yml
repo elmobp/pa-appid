@@ -4,6 +4,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.ELMOTOKEN }}
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10' 
@@ -16,5 +18,5 @@ jobs:
           author_email: 'lidder86@gmail.com'
           cwd: '.'
           default_author: github_actor
-          message: 'Update appid'
+          message: 'Update appid txt'
           push: true
