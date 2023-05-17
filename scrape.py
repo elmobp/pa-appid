@@ -18,6 +18,6 @@ content = response.text
 matches = re.findall(r"ShowApplicationDetail\('\d+', '(.*?)', '\d+'\);", content, re.MULTILINE)
 output = '\n'.join(matches)
 
-with open("file.txt", "w") as file:
+with open("appid.txt", "w") as file:
     file.write(output)
 
