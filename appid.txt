@@ -4313,11 +4313,23 @@
         "subcategory": "general-business",
         "technology": "client-server"
     },
+    "bing-ai": {
+        "risk": "1",
+        "category": "saas",
+        "subcategory": "artificial-intelligence",
+        "technology": "browser-based"
+    },
     "bing-maps": {
         "risk": "1",
         "category": "general-internet",
         "subcategory": "internet-utility",
         "technology": "browser-based"
+    },
+    "biofire-filmarray": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
     },
     "biomerieux-virtuo": {
         "risk": "1",
@@ -4708,8 +4720,8 @@
     },
     "brightsign-media-player": {
         "risk": "1",
-        "category": "business-systems",
-        "subcategory": "ics-protocols",
+        "category": "media",
+        "subcategory": "photo-video",
         "technology": "client-server"
     },
     "brighttalk": {
@@ -4823,6 +4835,12 @@
         "risk": "1",
         "category": "business-systems",
         "subcategory": "management",
+        "technology": "client-server"
+    },
+    "cadwell-cadlink": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
         "technology": "client-server"
     },
     "caihong": {
@@ -6405,6 +6423,12 @@
         "risk": "2",
         "category": "collaboration",
         "subcategory": "instant-messaging",
+        "technology": "client-server"
+    },
+    "codesys-runtime": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
         "technology": "client-server"
     },
     "cognex-insight-discovery": {
@@ -9555,6 +9579,12 @@
         "category": "business-systems",
         "subcategory": "auth-service",
         "technology": "client-server"
+    },
+    "dws-remote-control": {
+        "risk": "2",
+        "category": "networking",
+        "subcategory": "remote-access",
+        "technology": "browser-based"
     },
     "dynamicintranet": {
         "risk": "2",
@@ -14941,6 +14971,14 @@
                     "technology": "client-server"
                 }
             ],
+            "gist-posting": [
+                {
+                    "risk": "2",
+                    "category": "saas",
+                    "subcategory": "management",
+                    "technology": "client-server"
+                }
+            ],
             "github-uploading": [
                 {
                     "risk": "3",
@@ -15006,6 +15044,12 @@
         "technology": "client-server"
     },
     "github-posting": {
+        "risk": "2",
+        "category": "saas",
+        "subcategory": "management",
+        "technology": "client-server"
+    },
+    "gist-posting": {
         "risk": "2",
         "category": "saas",
         "subcategory": "management",
@@ -15449,6 +15493,12 @@
         "risk": "2",
         "category": "saas",
         "subcategory": "internet-utility",
+        "technology": "browser-based"
+    },
+    "google-bard": {
+        "risk": "2",
+        "category": "saas",
+        "subcategory": "artificial-intelligence",
         "technology": "browser-based"
     },
     "google-base": {
@@ -17130,6 +17180,12 @@
         "technology": "browser-based"
     },
     "hikvision-http": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "general-business",
+        "technology": "client-server"
+    },
+    "hikvision-svr": {
         "risk": "1",
         "category": "business-systems",
         "subcategory": "general-business",
@@ -22899,6 +22955,12 @@
         "subcategory": "email",
         "technology": "browser-based"
     },
+    "lionschat": {
+        "risk": "1",
+        "category": "collaboration",
+        "subcategory": "social-networking",
+        "technology": "client-server"
+    },
     "lis2a2": {
         "risk": "1",
         "category": "business-systems",
@@ -28366,9 +28428,640 @@
         "technology": "browser-based"
     },
     "omron-fins": {
+        "category": "",
+        "subcategory": "",
+        "technology": "",
+        "subapplications": {
+            "omron-fins-base": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-mem-area-read": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-mem-area-write": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-mem-area-fill": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-mult-mem-area-read": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-mem-area-transfer": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-param-area-read": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-param-area-write": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-param-area-clear": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-data-link-tbl-read": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-data-link-tbl-write": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-prog-area-protect": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-prog-area-prot-clr": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-prog-area-read": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-prog-area-write": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-prog-area-clear": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-run": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-stop": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-controller-data-read": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-connection-data-read": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-controller-stat-read": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-cycle-time-read": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-clock-read": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-clock-write": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-message-read": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-message-clear": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-access-right-facq": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-access-right-release": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-error-clear": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-error-log-clear": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-file-name-read": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-single-file-read": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-single-file-write": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-file-delete": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-volume-label": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-file-copy": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-file-name-change": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-file-data-check": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-mem-area-file-trans": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-para-area-file-trans": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-prog-area-file-trans": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-forced-set-reset": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-forced-set-cancel": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-access-right-acq": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "medical",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-mem-card-format": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "medical",
+                    "technology": "client-server"
+                }
+            ]
+        }
+    },
+    "omron-fins-base": {
         "risk": "1",
         "category": "business-systems",
         "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-mem-area-read": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-mem-area-write": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-mem-area-fill": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-mult-mem-area-read": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-mem-area-transfer": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-param-area-read": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-param-area-write": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-param-area-clear": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-data-link-tbl-read": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-data-link-tbl-write": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-prog-area-protect": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-prog-area-prot-clr": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-prog-area-read": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-prog-area-write": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-prog-area-clear": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-run": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-stop": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-controller-data-read": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-connection-data-read": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-controller-stat-read": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-cycle-time-read": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-clock-read": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-clock-write": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-message-read": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-message-clear": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-access-right-facq": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-access-right-release": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-error-clear": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-error-log-clear": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-file-name-read": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-single-file-read": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-single-file-write": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-file-delete": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-volume-label": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-file-copy": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-file-name-change": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-file-data-check": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-mem-area-file-trans": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-para-area-file-trans": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-prog-area-file-trans": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-forced-set-reset": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-forced-set-cancel": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-access-right-acq": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
+    "omron-fins-mem-card-format": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
         "technology": "client-server"
     },
     "onehub": {
@@ -30827,6 +31520,12 @@
         "subcategory": "photo-video",
         "technology": "client-server"
     },
+    "pevco-pts": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
     "pfcp": {
         "risk": "1",
         "category": "networking",
@@ -33071,6 +33770,12 @@
         "subcategory": "gaming",
         "technology": "client-server"
     },
+    "rockwell-eweb": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
     "rockwell-factorytalk": {
         "risk": "1",
         "category": "business-systems",
@@ -33808,6 +34513,12 @@
         "category": "collaboration",
         "subcategory": "social-networking",
         "technology": "browser-based"
+    },
+    "schneider-auto-servers-tcp": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
     },
     "schneider-ion": {
         "risk": "1",
