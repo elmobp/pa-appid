@@ -4541,6 +4541,12 @@
         "subcategory": "internet-conferencing",
         "technology": "browser-based"
     },
+    "bluexp": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "general-business",
+        "technology": "client-server"
+    },
     "bmc-bco-best1": {
         "risk": "1",
         "category": "business-systems",
@@ -5131,6 +5137,55 @@
         "category": "networking",
         "subcategory": "ip-protocol",
         "technology": "network-protocol"
+    },
+    "character-ai": {
+        "category": "",
+        "subcategory": "",
+        "technology": "",
+        "subapplications": {
+            "character-ai-base": [
+                {
+                    "risk": "2",
+                    "category": "saas",
+                    "subcategory": "artificial-intelligence",
+                    "technology": "browser-based"
+                }
+            ],
+            "character-ai-posting": [
+                {
+                    "risk": "2",
+                    "category": "saas",
+                    "subcategory": "artificial-intelligence",
+                    "technology": "browser-based"
+                }
+            ],
+            "character-ai-uploading": [
+                {
+                    "risk": "3",
+                    "category": "saas",
+                    "subcategory": "artificial-intelligence",
+                    "technology": "browser-based"
+                }
+            ]
+        }
+    },
+    "character-ai-base": {
+        "risk": "2",
+        "category": "saas",
+        "subcategory": "artificial-intelligence",
+        "technology": "browser-based"
+    },
+    "character-ai-posting": {
+        "risk": "2",
+        "category": "saas",
+        "subcategory": "artificial-intelligence",
+        "technology": "browser-based"
+    },
+    "character-ai-uploading": {
+        "risk": "3",
+        "category": "saas",
+        "subcategory": "artificial-intelligence",
+        "technology": "browser-based"
     },
     "chargen": {
         "risk": "1",
@@ -6856,6 +6911,12 @@
         "subcategory": "software-development",
         "technology": "client-server"
     },
+    "crestron-cip": {
+        "risk": "1",
+        "category": "media",
+        "subcategory": "photo-video",
+        "technology": "client-server"
+    },
     "crossloop": {
         "risk": "4",
         "category": "networking",
@@ -7423,6 +7484,55 @@
         "category": "general-internet",
         "subcategory": "internet-utility",
         "technology": "client-server"
+    },
+    "deepl": {
+        "category": "",
+        "subcategory": "",
+        "technology": "",
+        "subapplications": {
+            "deepl-write": [
+                {
+                    "risk": "1",
+                    "category": "saas",
+                    "subcategory": "artificial-intelligence",
+                    "technology": "browser-based"
+                }
+            ],
+            "deepl-base": [
+                {
+                    "risk": "2",
+                    "category": "saas",
+                    "subcategory": "artificial-intelligence",
+                    "technology": "browser-based"
+                }
+            ],
+            "deepl-translator": [
+                {
+                    "risk": "2",
+                    "category": "saas",
+                    "subcategory": "artificial-intelligence",
+                    "technology": "browser-based"
+                }
+            ]
+        }
+    },
+    "deepl-write": {
+        "risk": "1",
+        "category": "saas",
+        "subcategory": "artificial-intelligence",
+        "technology": "browser-based"
+    },
+    "deepl-base": {
+        "risk": "2",
+        "category": "saas",
+        "subcategory": "artificial-intelligence",
+        "technology": "browser-based"
+    },
+    "deepl-translator": {
+        "risk": "2",
+        "category": "saas",
+        "subcategory": "artificial-intelligence",
+        "technology": "browser-based"
     },
     "deepminer": {
         "risk": "5",
@@ -9578,6 +9688,12 @@
         "risk": "1",
         "category": "business-systems",
         "subcategory": "auth-service",
+        "technology": "client-server"
+    },
+    "dust": {
+        "risk": "2",
+        "category": "collaboration",
+        "subcategory": "instant-messaging",
         "technology": "client-server"
     },
     "dws-remote-control": {
@@ -13849,6 +13965,12 @@
         "subcategory": "file-sharing",
         "technology": "peer-to-peer"
     },
+    "franklin-electric-tsa": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
     "free-conference": {
         "category": "",
         "subcategory": "",
@@ -14007,6 +14129,12 @@
         "risk": "4",
         "category": "networking",
         "subcategory": "encrypted-tunnel",
+        "technology": "client-server"
+    },
+    "frp-proxy": {
+        "risk": "2",
+        "category": "networking",
+        "subcategory": "proxy",
         "technology": "client-server"
     },
     "fs2you": {
@@ -17414,6 +17542,12 @@
         "category": "networking",
         "subcategory": "ip-protocol",
         "technology": "network-protocol"
+    },
+    "hms-anybus-web": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
     },
     "hola-unblocker": {
         "risk": "4",
@@ -21522,6 +21656,12 @@
         "subcategory": "proxy",
         "technology": "client-server"
     },
+    "jasper-ai": {
+        "risk": "2",
+        "category": "saas",
+        "subcategory": "artificial-intelligence",
+        "technology": "browser-based"
+    },
     "jaspersoft": {
         "risk": "1",
         "category": "business-systems",
@@ -22230,6 +22370,12 @@
         "category": "media",
         "subcategory": "photo-video",
         "technology": "browser-based"
+    },
+    "khelpdesk-remote-control": {
+        "risk": "2",
+        "category": "networking",
+        "subcategory": "remote-access",
+        "technology": "client-server"
     },
     "kik": {
         "risk": "2",
@@ -24188,8 +24334,8 @@
     },
     "milestone-xprotect": {
         "risk": "1",
-        "category": "business-systems",
-        "subcategory": "ics-protocols",
+        "category": "media",
+        "subcategory": "photo-video",
         "technology": "client-server"
     },
     "millenium-ils": {
@@ -24246,6 +24392,12 @@
         "subcategory": "medical",
         "technology": "client-server"
     },
+    "mindray-tm": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
     "minecraft": {
         "risk": "2",
         "category": "media",
@@ -24277,6 +24429,539 @@
         "technology": "client-server"
     },
     "mitsubishi-melsec": {
+        "category": "",
+        "subcategory": "",
+        "technology": "",
+        "subapplications": {
+            "mitsubishi-melsec-base": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-batch-read": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-batch-write": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-random-read": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-random-write": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-batch-blk-rd": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-batch-blk-rw": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-entry-mon-dev": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-read-mon-dev": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-lbl-array-rd": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-lbl-array-wr": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-lbl-random-rd": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-lbl-random-wr": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-mem-batch-rd": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-mem-batch-wr": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-intel-func-rd": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-intel-func-wr": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-remote-run": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-remote-stop": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-remote-pause": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-latch-clear": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-remote-reset": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-read-model": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-remote-passwd": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-lock-passwd": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-loopback-test": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-clear-error": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-rd-file-list": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-search-file": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-create-file": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-delete-file": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-copy-file": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-mod-file-attr": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-mod-file-date": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-open-file": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-read-file": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-write-file": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ],
+            "mitsubishi-melsec-close-file": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
+            ]
+        }
+    },
+    "mitsubishi-melsec-base": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-batch-read": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-batch-write": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-random-read": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-random-write": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-batch-blk-rd": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-batch-blk-rw": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-entry-mon-dev": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-read-mon-dev": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-lbl-array-rd": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-lbl-array-wr": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-lbl-random-rd": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-lbl-random-wr": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-mem-batch-rd": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-mem-batch-wr": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-intel-func-rd": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-intel-func-wr": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-remote-run": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-remote-stop": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-remote-pause": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-latch-clear": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-remote-reset": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-read-model": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-remote-passwd": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-lock-passwd": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-loopback-test": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-clear-error": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-rd-file-list": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-search-file": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-create-file": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-delete-file": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-copy-file": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-mod-file-attr": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-mod-file-date": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-open-file": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-read-file": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-write-file": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "mitsubishi-melsec-close-file": {
         "risk": "1",
         "category": "business-systems",
         "subcategory": "ics-protocols",
@@ -26862,6 +27547,12 @@
         "subcategory": "management",
         "technology": "browser-based"
     },
+    "ms-visual-studio-remote-tunnel": {
+        "risk": "2",
+        "category": "business-systems",
+        "subcategory": "software-development",
+        "technology": "browser-based"
+    },
     "ms-visual-studio-tfs": {
         "category": "",
         "subcategory": "",
@@ -28640,6 +29331,14 @@
                     "technology": "client-server"
                 }
             ],
+            "omron-fins-access-right-acq": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
             "omron-fins-access-right-facq": [
                 {
                     "risk": "1",
@@ -28689,6 +29388,14 @@
                 }
             ],
             "omron-fins-single-file-write": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "client-server"
+                }
+            ],
+            "omron-fins-mem-card-format": [
                 {
                     "risk": "1",
                     "category": "business-systems",
@@ -28773,22 +29480,6 @@
                     "risk": "1",
                     "category": "business-systems",
                     "subcategory": "ics-protocols",
-                    "technology": "client-server"
-                }
-            ],
-            "omron-fins-access-right-acq": [
-                {
-                    "risk": "1",
-                    "category": "business-systems",
-                    "subcategory": "medical",
-                    "technology": "client-server"
-                }
-            ],
-            "omron-fins-mem-card-format": [
-                {
-                    "risk": "1",
-                    "category": "business-systems",
-                    "subcategory": "medical",
                     "technology": "client-server"
                 }
             ]
@@ -28950,6 +29641,12 @@
         "subcategory": "ics-protocols",
         "technology": "client-server"
     },
+    "omron-fins-access-right-acq": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
     "omron-fins-access-right-facq": {
         "risk": "1",
         "category": "business-systems",
@@ -28987,6 +29684,12 @@
         "technology": "client-server"
     },
     "omron-fins-single-file-write": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "omron-fins-mem-card-format": {
         "risk": "1",
         "category": "business-systems",
         "subcategory": "ics-protocols",
@@ -29050,18 +29753,6 @@
         "risk": "1",
         "category": "business-systems",
         "subcategory": "ics-protocols",
-        "technology": "client-server"
-    },
-    "omron-fins-access-right-acq": {
-        "risk": "1",
-        "category": "business-systems",
-        "subcategory": "medical",
-        "technology": "client-server"
-    },
-    "omron-fins-mem-card-format": {
-        "risk": "1",
-        "category": "business-systems",
-        "subcategory": "medical",
         "technology": "client-server"
     },
     "onehub": {
@@ -31556,6 +32247,12 @@
         "subcategory": "medical",
         "technology": "client-server"
     },
+    "philips-pic": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
     "philips-pm": {
         "risk": "1",
         "category": "business-systems",
@@ -33615,6 +34312,12 @@
         "subcategory": "storage-backup",
         "technology": "client-server"
     },
+    "retune": {
+        "risk": "2",
+        "category": "saas",
+        "subcategory": "artificial-intelligence",
+        "technology": "browser-based"
+    },
     "reuters-data-service": {
         "risk": "1",
         "category": "business-systems",
@@ -34515,6 +35218,12 @@
         "technology": "browser-based"
     },
     "schneider-auto-servers-tcp": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "schneider-ecostruxure-dpws": {
         "risk": "1",
         "category": "business-systems",
         "subcategory": "ics-protocols",
@@ -38328,6 +39037,12 @@
         "subcategory": "internet-utility",
         "technology": "client-server"
     },
+    "tabnine": {
+        "risk": "1",
+        "category": "saas",
+        "subcategory": "artificial-intelligence",
+        "technology": "browser-based"
+    },
     "tacacs": {
         "risk": "1",
         "category": "business-systems",
@@ -38638,6 +39353,12 @@
         "subcategory": "internet-utility",
         "technology": "client-server"
     },
+    "tenable.io": {
+        "risk": "1",
+        "category": "saas",
+        "subcategory": "security",
+        "technology": "browser-based"
+    },
     "tencent-meeting": {
         "risk": "2",
         "category": "collaboration",
@@ -38654,6 +39375,12 @@
         "risk": "2",
         "category": "business-systems",
         "subcategory": "database",
+        "technology": "client-server"
+    },
+    "terarecon-intuition-thin-client": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
         "technology": "client-server"
     },
     "teredo": {
@@ -38890,6 +39617,12 @@
         "category": "networking",
         "subcategory": "ip-protocol",
         "technology": "network-protocol"
+    },
+    "tocnet-scau-connect": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
     },
     "tokbox": {
         "risk": "3",
@@ -40824,6 +41557,12 @@
         "category": "networking",
         "subcategory": "ip-protocol",
         "technology": "network-protocol"
+    },
+    "vsco": {
+        "risk": "2",
+        "category": "saas",
+        "subcategory": "general-business",
+        "technology": "browser-based"
     },
     "vsee": {
         "risk": "4",
