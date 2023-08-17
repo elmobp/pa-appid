@@ -6913,8 +6913,8 @@
     },
     "crestron-cip": {
         "risk": "1",
-        "category": "media",
-        "subcategory": "photo-video",
+        "category": "business-systems",
+        "subcategory": "general-business",
         "technology": "client-server"
     },
     "crossloop": {
@@ -14441,6 +14441,12 @@
         "subcategory": "medical",
         "technology": "client-server"
     },
+    "ge-dcp": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
     "ge-ecg-serial": {
         "risk": "1",
         "category": "business-systems",
@@ -15062,8 +15068,16 @@
             "github-copilot": [
                 {
                     "risk": "1",
-                    "category": "business-systems",
-                    "subcategory": "software-development",
+                    "category": "saas",
+                    "subcategory": "artificial-intelligence",
+                    "technology": "client-server"
+                }
+            ],
+            "github-copilot-business": [
+                {
+                    "risk": "1",
+                    "category": "saas",
+                    "subcategory": "artificial-intelligence",
                     "technology": "client-server"
                 }
             ],
@@ -15149,8 +15163,14 @@
     },
     "github-copilot": {
         "risk": "1",
-        "category": "business-systems",
-        "subcategory": "software-development",
+        "category": "saas",
+        "subcategory": "artificial-intelligence",
+        "technology": "client-server"
+    },
+    "github-copilot-business": {
+        "risk": "1",
+        "category": "saas",
+        "subcategory": "artificial-intelligence",
         "technology": "client-server"
     },
     "github-base": {
@@ -22823,6 +22843,12 @@
         "subcategory": "internet-utility",
         "technology": "browser-based"
     },
+    "lemon8": {
+        "risk": "1",
+        "category": "media",
+        "subcategory": "photo-video",
+        "technology": "client-server"
+    },
     "lenel-isc": {
         "risk": "1",
         "category": "business-systems",
@@ -27053,6 +27079,30 @@
                     "technology": "browser-based"
                 }
             ],
+            "ms-onedrive-business": [
+                {
+                    "risk": "4",
+                    "category": "saas",
+                    "subcategory": "file-sharing",
+                    "technology": "client-server"
+                }
+            ],
+            "ms-onedrive-business-upload": [
+                {
+                    "risk": "4",
+                    "category": "saas",
+                    "subcategory": "file-sharing",
+                    "technology": "client-server"
+                }
+            ],
+            "ms-onedrive-business-download": [
+                {
+                    "risk": "4",
+                    "category": "saas",
+                    "subcategory": "file-sharing",
+                    "technology": "client-server"
+                }
+            ],
             "ms-lync-online": [
                 {
                     "risk": "3",
@@ -27260,6 +27310,24 @@
         "category": "saas",
         "subcategory": "file-sharing",
         "technology": "browser-based"
+    },
+    "ms-onedrive-business": {
+        "risk": "4",
+        "category": "saas",
+        "subcategory": "file-sharing",
+        "technology": "client-server"
+    },
+    "ms-onedrive-business-upload": {
+        "risk": "4",
+        "category": "saas",
+        "subcategory": "file-sharing",
+        "technology": "client-server"
+    },
+    "ms-onedrive-business-download": {
+        "risk": "4",
+        "category": "saas",
+        "subcategory": "file-sharing",
+        "technology": "client-server"
     },
     "ms-lync-online": {
         "risk": "3",
@@ -28552,6 +28620,12 @@
         "risk": "3",
         "category": "saas",
         "subcategory": "email",
+        "technology": "client-server"
+    },
+    "neximatic": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
         "technology": "client-server"
     },
     "nexon-launcher": {
@@ -31736,6 +31810,41 @@
         "subcategory": "general-business",
         "technology": "client-server"
     },
+    "paloalto-prisma-sdwan": {
+        "category": "",
+        "subcategory": "",
+        "technology": "",
+        "subapplications": {
+            "paloalto-prisma-sdwan-base": [
+                {
+                    "risk": "1",
+                    "category": "networking",
+                    "subcategory": "infrastructure",
+                    "technology": "client-server"
+                }
+            ],
+            "paloalto-prisma-sdwan-control": [
+                {
+                    "risk": "1",
+                    "category": "networking",
+                    "subcategory": "infrastructure",
+                    "technology": "client-server"
+                }
+            ]
+        }
+    },
+    "paloalto-prisma-sdwan-base": {
+        "risk": "1",
+        "category": "networking",
+        "subcategory": "infrastructure",
+        "technology": "client-server"
+    },
+    "paloalto-prisma-sdwan-control": {
+        "risk": "1",
+        "category": "networking",
+        "subcategory": "infrastructure",
+        "technology": "client-server"
+    },
     "paloalto-shared-services": {
         "risk": "1",
         "category": "business-systems",
@@ -32985,10 +33094,39 @@
         "subcategory": "internet-utility",
         "technology": "browser-based"
     },
+    "proton": {
+        "category": "",
+        "subcategory": "",
+        "technology": "",
+        "subapplications": {
+            "protonmail": [
+                {
+                    "risk": "2",
+                    "category": "collaboration",
+                    "subcategory": "email",
+                    "technology": "browser-based"
+                }
+            ],
+            "proton-base": [
+                {
+                    "risk": "1",
+                    "category": "saas",
+                    "subcategory": "data-privacy",
+                    "technology": "browser-based"
+                }
+            ]
+        }
+    },
     "protonmail": {
         "risk": "2",
         "category": "collaboration",
         "subcategory": "email",
+        "technology": "browser-based"
+    },
+    "proton-base": {
+        "risk": "1",
+        "category": "saas",
+        "subcategory": "data-privacy",
         "technology": "browser-based"
     },
     "proxeasy": {
@@ -33694,6 +33832,12 @@
         "category": "business-systems",
         "subcategory": "general-business",
         "technology": "client-server"
+    },
+    "radiometer-aqure": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "browser-based"
     },
     "radius": {
         "risk": "1",
@@ -34683,6 +34827,12 @@
         "category": "media",
         "subcategory": "audio-streaming",
         "technology": "browser-based"
+    },
+    "rudesktop-remote-desktop": {
+        "risk": "2",
+        "category": "networking",
+        "subcategory": "remote-access",
+        "technology": "client-server"
     },
     "runescape": {
         "risk": "1",
@@ -37434,6 +37584,12 @@
         "subcategory": "proxy",
         "technology": "network-protocol"
     },
+    "socratic": {
+        "risk": "1",
+        "category": "saas",
+        "subcategory": "artificial-intelligence",
+        "technology": "client-server"
+    },
     "sodapdf": {
         "category": "",
         "subcategory": "",
@@ -38535,6 +38691,12 @@
         "risk": "4",
         "category": "saas",
         "subcategory": "file-sharing",
+        "technology": "client-server"
+    },
+    "suit-conference": {
+        "risk": "1",
+        "category": "collaboration",
+        "subcategory": "internet-conferencing",
         "technology": "client-server"
     },
     "suitelink": {
