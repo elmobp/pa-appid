@@ -1270,6 +1270,12 @@
         "subcategory": "photo-video",
         "technology": "browser-based"
     },
+    "amazon-luna": {
+        "risk": "1",
+        "category": "saas",
+        "subcategory": "internet-utility",
+        "technology": "browser-based"
+    },
     "amazon-music": {
         "category": "",
         "subcategory": "",
@@ -12501,6 +12507,36 @@
         "subcategory": "gaming",
         "technology": "browser-based"
     },
+    "ewon-discovery": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "ewon-firmware-update": {
+        "risk": "2",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "ewon-talk2m-access": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "ewon-talk2m-vpn": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
+    "ewon-web-server": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "browser-based"
+    },
     "exacqvision": {
         "risk": "1",
         "category": "media",
@@ -23582,6 +23618,12 @@
         "subcategory": "office-programs",
         "technology": "browser-based"
     },
+    "luxriot-evo": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "management",
+        "technology": "client-server"
+    },
     "lwapp": {
         "risk": "1",
         "category": "networking",
@@ -28769,6 +28811,12 @@
         "subcategory": "email",
         "technology": "browser-based"
     },
+    "ninjaone": {
+        "risk": "1",
+        "category": "saas",
+        "subcategory": "it-management",
+        "technology": "browser-based"
+    },
     "nintendo-conntest": {
         "risk": "1",
         "category": "media",
@@ -32021,6 +32069,12 @@
         "subcategory": "ics-protocols",
         "technology": "client-server"
     },
+    "panasonic-mewtocol": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "client-server"
+    },
     "panda-update": {
         "risk": "1",
         "category": "business-systems",
@@ -33838,6 +33892,12 @@
         "category": "business-systems",
         "subcategory": "medical",
         "technology": "browser-based"
+    },
+    "radiometer-aqure-tcp": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
     },
     "radius": {
         "risk": "1",
@@ -36244,6 +36304,231 @@
         "technology": "client-server"
     },
     "siemens-epoc": {
+        "category": "",
+        "subcategory": "",
+        "technology": "",
+        "subapplications": {
+            "siemens-epoc-base": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "medical",
+                    "technology": "client-server"
+                }
+            ],
+            "siemens-epoc-handshake": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "medical",
+                    "technology": "client-server"
+                }
+            ],
+            "siemens-epoc-get-sw-update-info": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "medical",
+                    "technology": "client-server"
+                }
+            ],
+            "siemens-epoc-save-test": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "medical",
+                    "technology": "client-server"
+                }
+            ],
+            "siemens-epoc-reader-info": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "medical",
+                    "technology": "client-server"
+                }
+            ],
+            "siemens-epoc-save-packet": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "medical",
+                    "technology": "client-server"
+                }
+            ],
+            "siemens-epoc-save-eqc": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "medical",
+                    "technology": "client-server"
+                }
+            ],
+            "siemens-epoc-get-time": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "medical",
+                    "technology": "client-server"
+                }
+            ],
+            "siemens-epoc-get-epocal-config": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "medical",
+                    "technology": "client-server"
+                }
+            ],
+            "siemens-epoc-get-configuration": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "medical",
+                    "technology": "client-server"
+                }
+            ],
+            "siemens-epoc-acknowledge": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "medical",
+                    "technology": "client-server"
+                }
+            ],
+            "siemens-epoc-get-testcard-lot": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "medical",
+                    "technology": "client-server"
+                }
+            ],
+            "siemens-epoc-get-operator-list": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "medical",
+                    "technology": "client-server"
+                }
+            ],
+            "siemens-epoc-get-physician-list": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "medical",
+                    "technology": "client-server"
+                }
+            ],
+            "siemens-epoc-get-auto-sw-updt": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "medical",
+                    "technology": "client-server"
+                }
+            ],
+            "siemens-epoc-get-evad": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "medical",
+                    "technology": "client-server"
+                }
+            ]
+        }
+    },
+    "siemens-epoc-base": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
+    "siemens-epoc-handshake": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
+    "siemens-epoc-get-sw-update-info": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
+    "siemens-epoc-save-test": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
+    "siemens-epoc-reader-info": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
+    "siemens-epoc-save-packet": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
+    "siemens-epoc-save-eqc": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
+    "siemens-epoc-get-time": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
+    "siemens-epoc-get-epocal-config": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
+    "siemens-epoc-get-configuration": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
+    "siemens-epoc-acknowledge": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
+    "siemens-epoc-get-testcard-lot": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
+    "siemens-epoc-get-operator-list": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
+    "siemens-epoc-get-physician-list": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
+    "siemens-epoc-get-auto-sw-updt": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "medical",
+        "technology": "client-server"
+    },
+    "siemens-epoc-get-evad": {
         "risk": "1",
         "category": "business-systems",
         "subcategory": "medical",
@@ -40850,6 +41135,14 @@
                     "subcategory": "ics-protocols",
                     "technology": "network-protocol"
                 }
+            ],
+            "umas-read-card-info": [
+                {
+                    "risk": "1",
+                    "category": "business-systems",
+                    "subcategory": "ics-protocols",
+                    "technology": "network-protocol"
+                }
             ]
         }
     },
@@ -41004,6 +41297,12 @@
         "technology": "network-protocol"
     },
     "umas-read-id": {
+        "risk": "1",
+        "category": "business-systems",
+        "subcategory": "ics-protocols",
+        "technology": "network-protocol"
+    },
+    "umas-read-card-info": {
         "risk": "1",
         "category": "business-systems",
         "subcategory": "ics-protocols",
@@ -42525,6 +42824,30 @@
                     "technology": "client-server"
                 }
             ],
+            "azure-openai-studio": [
+                {
+                    "risk": "3",
+                    "category": "saas",
+                    "subcategory": "artificial-intelligence",
+                    "technology": "browser-based"
+                }
+            ],
+            "azure-openai-api": [
+                {
+                    "risk": "3",
+                    "category": "saas",
+                    "subcategory": "artificial-intelligence",
+                    "technology": "client-server"
+                }
+            ],
+            "azure-openai-encrypted": [
+                {
+                    "risk": "3",
+                    "category": "saas",
+                    "subcategory": "artificial-intelligence",
+                    "technology": "client-server"
+                }
+            ],
             "windows-azure-base": [
                 {
                     "risk": "1",
@@ -42551,6 +42874,24 @@
         "risk": "1",
         "category": "business-systems",
         "subcategory": "general-business",
+        "technology": "client-server"
+    },
+    "azure-openai-studio": {
+        "risk": "3",
+        "category": "saas",
+        "subcategory": "artificial-intelligence",
+        "technology": "browser-based"
+    },
+    "azure-openai-api": {
+        "risk": "3",
+        "category": "saas",
+        "subcategory": "artificial-intelligence",
+        "technology": "client-server"
+    },
+    "azure-openai-encrypted": {
+        "risk": "3",
+        "category": "saas",
+        "subcategory": "artificial-intelligence",
         "technology": "client-server"
     },
     "windows-azure-base": {
