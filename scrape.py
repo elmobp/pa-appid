@@ -15,7 +15,7 @@ data = {
 
 response = requests.post(url, data=data)
 content = response.text
-
+print(content)
 soup = BeautifulSoup(content, "html.parser")
 table = soup.find(id="bodyScrollingTable")
 child_elements = table.find_all("tr")
