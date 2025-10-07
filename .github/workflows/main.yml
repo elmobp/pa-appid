@@ -5,7 +5,7 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
         with:
           token: ${{ secrets.ELMOTOKEN }}
       - uses: actions/setup-python@v4
